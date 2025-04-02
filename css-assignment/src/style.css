@@ -1,0 +1,49 @@
+/* External CSS file for styling the HTML document */
+
+/* Universal selector to apply a default box-sizing */
+* {
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif; /* Different font */
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4; /* Light background color */
+}
+
+/* Class selector for main content */
+.main-content {
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #333; /* Border around main content */
+    background-color: #fff; /* White background for content */
+}
+
+/* ID selector for header */
+#header {
+    text-align: center;
+    color: #333; /* Dark text color */
+}
+
+/* Element selector for images */
+img {
+    max-width: 100%; /* Responsive image */
+    height: auto;
+    margin: 10px 0; /* Margin around images */
+}
+
+/* Class selector for buttons */
+.button {
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Button text color */
+    padding: 10px 15px; /* Padding inside button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
